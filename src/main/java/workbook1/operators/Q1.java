@@ -8,5 +8,7 @@ public class Q1 {
         int a = sc.nextInt();
         int b = sc.nextInt();
         // TODO: 산술 연산자(+, -, *, /, %) 결과 출력
+
+        System.out.println(a+b+" "+a*b+" "+a*b+" "+a/b+" "+a%b);
     }
 }

@@ -10,5 +10,17 @@ public class Q3 {
         int i = sc.nextInt();
         long l = sc.nextLong();
         // TODO: b, s, i, l을 long으로 변환해 합산 후 float으로 변환하여 출력
+        long B =b;
+        long S = s;
+        long I = i;
+        long L = l;
+
+        long sum = B + S +I + L ;
+
+        float result  = (float) sum;
+        System.out.println(result);
+
+
+
     }
 }
