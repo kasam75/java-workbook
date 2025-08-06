@@ -8,7 +8,7 @@ public class Q6 {
         double weight = sc.nextDouble();
         double heightCm = sc.nextDouble();
 
-        double BMI = weight *10000/ (heightCm * heightCm);
+        double BMI = weight / (heightCm /100 * heightCm/100);
         System.out.println(BMI);
         if (BMI > 30) {
             System.out.println("비만");
